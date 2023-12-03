@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+}
+button:hover{
+    cursor: pointer;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    height: 100px;
+    width: 300px;
+    background: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content{
+    display: flex;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    padding-right: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    text-decoration-skip-ink: none;
+}
+
+.headline{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(107, 14, 52);
+    height: 58px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* design of main starts */
+
+main{
+    height: fit-content;
+}
+
+.xbox{
+    height: 500px;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Xbox-Series-X-FY24HOLPM:VP4-1399x600');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.box1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxc{
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px;
+}
+
+.box1 button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+}
+
+.box1 h4{
+    color: rgb(107, 14, 52);
+}
+
+/* The below given styles are for the block just below xbox block */
+
+.down_of_xbox{
+    display: flex;
+    height: fit-content;
+    justify-content: space-around
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Surface-Devices?wid=40&hei=40');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.c2{
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Xbox-Games-Consoles?wid=40&hei=40');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.c3{
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Accessories?wid=40&hei=40');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.c4{
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Business?wid=40&hei=40');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.c5{
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+/* new styles */
+
+.shop1{
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+}
+
+.shop1_boxes{
+    display: flex;
+    flex-direction: column;
+    width: 285.516px;
+}
+
+.sec1_im{
+    height: 160.531px;
+    width: 285.516px;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-5-Platinum-FY24HOL?wid=297&hei=167&fit=crop');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec1_price{
+    text-wrap: wrap;
+    font-size: 25px;
+}
+
+.sec1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+}
+.label1{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 14, 52);
+    height: 28px;
+    width: 110.984px;
+}
+
+.sec1_des{
+    font-size: 15px;
+}
+
+.sec1_go a{
+    text-decoration: none;
+    color: rgb(107, 14, 52);
+}
+
+
+
+.sec2_im{
+    height: 160.531px;
+    width: 285.516px;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Pro-9-Platinum-FY24HOL?wid=297&hei=167&fit=crop');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec2_price{
+    text-wrap: wrap;
+    font-size: 25px;
+}
+
+.sec2{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+}
+.label2{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 14, 52);
+    height: 28px;
+    width: 110.984px;
+}
+
+.sec2_des{
+    font-size: 15px;
+}
+
+.sec2_go a{
+    text-decoration: none;
+    color: rgb(107, 14, 52);
+}
+
+
+
+.sec3_im{
+    height: 160.531px;
+    width: 285.516px;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Xbox-Series-S-Black-1TB-FY24HOL?wid=297&hei=167&fit=crop');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec3_price{
+    text-wrap: wrap;
+    font-size: 25px;
+}
+
+.sec3{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+}
+.label3{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 14, 52);
+    height: 28px;
+    width: 110.984px;
+}
+
+.sec3_des{
+    font-size: 15px;
+}
+
+.sec3_go a{
+    text-decoration: none;
+    color: rgb(107, 14, 52);
+}
+
+
+
+.sec4_im{
+    height: 160.531px;
+    width: 285.516px;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Accessories-Type-Cover-Black-Pen-Mouse-Poppy-Red-FY24HOL?wid=297&hei=167&fit=crop');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec4_price{
+    text-wrap: wrap;
+    font-size: 25px;
+}
+
+.sec4{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+}
+.label4{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 14, 52);
+    height: 28px;
+    width: 110.984px;
+}
+
+.sec4_des{
+    font-size: 15px;
+}
+
+.sec4_go a{
+    text-decoration: none;
+    color: rgb(107, 14, 52);
+}
+
+/* xbox controller */
+
+.xbox_control{
+    display: flex;
+    justify-content: center;
+    height: 578.125px;
+    margin-top: 30px;
+}
+.control_image{
+    display: flex;
+    height: 578.125px;
+    width: 1214.09px;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Xbox-Controllers-Green-Red-FY24HOL:VP4-1260x600');
+}
+.control_image_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.control_image_content h1{
+    margin-top: 50px;
+}
+.control_image_content p{
+    align-self: self-start;
+    margin-top: 50px;
+}
+.control_image_content button{
+    margin-top: 50px;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.ai{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 573.375px;
+}
+.ai_im{
+    display: flex;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-AI-10-Terms:VP2-859x540');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 573.375px;
+    width: 1204.09px;
+}
+.ai_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+
+/* footer */
+footer{
+    margin-top: 70px;
+    height: fit-content;
+}
+.links{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    position: relative;
+    left: 30px;
+}
+
+.facebook{
+    height: 32px;
+    width: 32px;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Facebook%202x?scl=1');
+    background-position: center;
+    background-size: cover;
+}
+.twitter{
+    height: 32px;
+    width: 32px;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-MSCOM-X-64x64?scl=1');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.linkedin{
+    height: 32px;
+    width: 32px;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Linkedin%202x?scl=1');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.end{
+    display: flex;
+    background-color: rgb(242, 242, 242);
+    height: 350px;
+}
+.containers{
+    height: 350px;
+    width: 202.344px;
+}
+.superend{
+    height: 72px;
+    background-color: rgb(242, 242, 242);
+}
+
+li{
+    list-style: none;
+}
+
+.content_anchor{
+    padding-top: 8px;
+    text-decoration-thickness: 1px;
+    list-style: none;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    color: rgb(97, 97, 97);
+}
+.mainc{
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(97, 97, 97);
+}
+.container_content{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-around;
+}
